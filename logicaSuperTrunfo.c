@@ -3,7 +3,7 @@
 
 // Desafio Super Trunfo - Países
 // Tema 2 - Comparação das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de comparação de cartas de cidades. 
+// Este código inicial serve como base para o desenvolvimento do sistema de comparação de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
 
 int main() {
@@ -120,7 +120,7 @@ int main() {
                 //  COMPARAÇÂO ENTRE CARTAS
 
                 // Apresenta a quantidade de pessoas em cada carta
-                printf("Carta 1 (%s) %d\n Carta 2 (%s) %d\n", nome_da_cidade_carta01, populacao_carta01, nome_da_cidade_carta02, populacao_carta02);
+                printf("Carta 1 %s(%s) %d\n Carta 2 %s(%s) %d\n", nome_da_cidade_carta01, estado_carta01, populacao_carta01, nome_da_cidade_carta02, estado_carta02, populacao_carta02);
 
                 // faz a comparação e apresenta o resultado
                 if(populacao_carta01>populacao_carta02){
